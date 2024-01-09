@@ -492,6 +492,19 @@ video{
         font-weight: 500;
 
     }
+    #scroller h2{
+        display: inline-block;
+        font-size: 65px;
+        font-weight: 600;
+        font-family: gilroy;
+        font-weight: 900;
+        -webkit-text-stroke: 1px #95C11E;
+        color: transparent;
+        transition: all linear 0.5s;
+    }
+    #scroller h2:hover{
+        color: goldenrod;
+    }
     
     #text {
         height: auto;
